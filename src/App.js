@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import {SimplePool} from 'nostr-tools'
+
+const pool = new SimplePool()
+
+window.pool = pool
+window.relays = [
+  
+]
 
 function App() {
   return (
